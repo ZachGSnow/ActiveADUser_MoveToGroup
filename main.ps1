@@ -1,4 +1,4 @@
-Define variable for OU to search for users. Alter for your need. Use Distinguished name for OU / CN.
+#Define variable for OU to search for users. Alter for your need. Use Distinguished name for OU / CN.
 $SearchBase = "OU=xxx,DC=company,DC=com"
 
 #Get ADusers where the LastLogonDate AD Attribute is a date within the past 60 days, not null, and the ADUser has the AD Property 'mail' defined.
